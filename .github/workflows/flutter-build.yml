@@ -35,7 +35,7 @@ jobs:
       
       # Cache pub dependencies
       - name: Cache Pub Dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ env.PUB_CACHE }}
           key: ${{ runner.os }}-pub-${{ hashFiles('**/pubspec.lock') }}
@@ -99,7 +99,7 @@ jobs:
       
       # Cache pub dependencies
       - name: Cache Pub Dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ env.PUB_CACHE }}
           key: ${{ runner.os }}-pub-${{ hashFiles('**/pubspec.lock') }}
@@ -161,7 +161,7 @@ jobs:
       
       # Cache pub dependencies
       - name: Cache Pub Dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ env.PUB_CACHE }}
           key: ${{ runner.os }}-pub-${{ hashFiles('**/pubspec.lock') }}

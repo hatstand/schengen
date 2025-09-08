@@ -54,7 +54,7 @@ dependencies:
   timezone: ^0.10.1
 
   path: any
-  flutter_svg: ^2.2.0
+  flutter_svg: ^2.2.1
   
   # Logging
   logging: ^1.2.0
